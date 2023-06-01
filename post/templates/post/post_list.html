@@ -1,0 +1,6 @@
+{% load i18n %}
+
+<h1>{% trans 'hello' %}</h1>
+{% for post in posts %}
+    <p>{{post.title}}</p>
+{% endfor %}
